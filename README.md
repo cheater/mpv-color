@@ -5,6 +5,14 @@ Advanced color settings for MPV: brightness, contrast, gamma for separate R G B 
 
 Put the lines from `fragment-of-input.conf` in your `input.conf`. Put `color.lua` under `scripts/color.lua`. Restart `mpv`.
 
+## Features
+
+Allows adjusting brightness, contrast, gamma for R G and B channels separately, which is necessary for some badly mastered movies.
+
+Reloads the settings from mpv config if possible, so that you don't have to re-adjust everything when you reopen the file and want to make further adjustments.
+
+The reloading will not work if you set the `vf` value yourself or modify it in some way compared to what this script is doing.
+
 
 ## Usage
 

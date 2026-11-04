@@ -19,7 +19,7 @@ The reloading will not work if you set the `vf` value yourself or modify it in s
 
 ### Select mode
 
-- F9: adjust all channels
+- F9: adjust all channels (this is the default setting)
 - F10: adjust red only
 - F11: adjust green only
 - F12: adjust blue only
